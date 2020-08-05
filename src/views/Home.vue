@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="test" />
+    <img alt="gl logo" src="../assets/gl2.jpg" />
+    <HelloWorld msg="Hair Salon" />
   </div>
 </template>
 
