@@ -1,5 +1,6 @@
 <template>
      <div class="Services">
+       <test msg= "We offer the following services:" />
      </div>
 </template>
 
