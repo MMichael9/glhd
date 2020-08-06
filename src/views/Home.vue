@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="gl logo" src="../assets/gl2.jpg" />
-    <HelloWorld msg="Hair Salon" />
+    <HelloWorld msg="GLHD" />
   </div>
 </template>
 
