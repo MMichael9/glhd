@@ -1,4 +1,19 @@
 <template>
-     <div class="Login">
-     </div>
+    <v-container fluid>
+        <v-layout>
+            <h1>Login</h1>
+        </v-layout>
+    </v-container>
 </template>
+
+<script>
+
+export default {
+    name: 'Login'
+}
+
+</script>
+
+<style scoped>
+
+</style>
