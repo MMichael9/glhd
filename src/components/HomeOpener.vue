@@ -6,7 +6,7 @@
         <div class="display-4 font-weight-black white--text text-xs-center mb-3">Hair Design</div>
         <div
             class="display-1 font-weight-bold white--text text-xs-center"
-        >Finally be a foodie at home with fresh, chef-prepared meals delivered daily to your door.
+        >Professional hair salon in Queensborough since 1998.
         </div>
     </v-layout>
 </v-container>
