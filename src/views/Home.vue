@@ -1,18 +1,20 @@
 <template>
-  <div class="home">
-    <img alt="gl logo" src="../assets/gl2.jpg" />
-    <HelloWorld msg="GLHD" />
-  </div>
+  <span>
+    <home-opener></home-opener>
+    <hello-world></hello-world>
+  </span>
 </template>
 
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
+import HomeOpener from "@/components/HomeOpener.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    HelloWorld,
+    HomeOpener
   }
 };
 </script>

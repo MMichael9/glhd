@@ -3,7 +3,7 @@
         <v-navigation-drawer
             app
             v-model="drawer"
-            class="brown lighten-2"
+            class="blue lighten-2"
             dark
             disable-resize-watcher
             right
@@ -17,16 +17,16 @@
                 </template>
             </v-list>
         </v-navigation-drawer>
-        <v-toolbar app color="brown darken-4" dark>
+        <v-toolbar app color="blue darken-4" dark>
             <router-link to="/">
-                <v-toolbar-title>{{appTitle}}</v-toolbar-title>
+                <v-toolbar-title class="title">{{appTitle}}</v-toolbar-title>
             </router-link>
             <v-btn class="hidden-sm-and-down btn" to="/services">Services</v-btn>
             <v-btn class="hidden-sm-and-down btn" to="/about">About Us</v-btn>
             <v-btn class="hidden-sm-and-down btn">Contact Us</v-btn> <!-- Contact us in home ? -->
             <v-spacer class="hidden-sm-and-down"></v-spacer>
-            <v-btn flat class="hidden-sm-and-down" to="/Login">SIGN IN</v-btn>
-            <v-btn color="brown lighten-3" class="hidden-sm-and-down" to="/join">JOIN</v-btn>
+            <v-btn flat class="hidden-sm-and-down" to="/login">SIGN IN</v-btn>
+            <v-btn color="blue lighten-2" class="hidden-sm-and-down" to="/join">JOIN</v-btn>
             <v-spacer class="hidden-md-and-up"></v-spacer>
             <v-toolbar-side-icon class="hidden-md-and-up test" @click="drawer = !drawer">
                 <v-icon>list menu</v-icon>
@@ -59,5 +59,10 @@ a {
 }
 .btn {
     margin: 10px;
+}
+
+.title {
+    color: white;
+    text-decoration: white;
 }
 </style>
