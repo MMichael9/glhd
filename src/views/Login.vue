@@ -1,16 +1,17 @@
 <template>
-    <v-container fluid>
-        <v-layout>
-            <h1>Login</h1>
-        </v-layout>
-    </v-container>
+    <login-form></login-form>
 </template>
 
 <script>
+import LoginForm from "@/components/LoginForm.vue";
+
 
 export default {
-    name: 'Login'
-}
+    name: 'Login', 
+    components: {
+        LoginForm
+    }
+};
 
 </script>
 

@@ -1,15 +1,16 @@
 <template>
-    <v-container fluid>
-        <v-layout>
-            <h1>Join</h1>
-        </v-layout>
-    </v-container>
+    <join-form></join-form>
 </template>
 
 <script>
 
+import JoinForm from "@/components/JoinForm.vue";
+
 export default {
-    name: 'Join'
+    name: 'Join', 
+    components: {
+        JoinForm
+    }
 }
 
 </script>
