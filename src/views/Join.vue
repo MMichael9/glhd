@@ -3,18 +3,14 @@
 </template>
 
 <script>
-
-import JoinForm from "@/components/JoinForm.vue";
+import JoinForm from '@/components/JoinForm.vue';
 
 export default {
-    name: 'Join', 
+    name: 'Join',
     components: {
         JoinForm
     }
-}
-
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
