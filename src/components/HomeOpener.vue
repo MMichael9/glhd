@@ -12,6 +12,9 @@
             <div
                 class="display-1 font-weight-bold white--text text-xs-center"
             ></div>
+            <div class="display-1 font-weight-bold white--text text-xs-center">
+                Professional hair salon in Queensborough since 1998.
+            </div>
             <div>
                 <v-btn rounded="true" id="book-now" to="/join"
                     >Book Appointment</v-btn
