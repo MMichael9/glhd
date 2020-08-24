@@ -16,7 +16,7 @@
                 Professional hair salon in Queensborough since 1998.
             </div>
             <div>
-                <v-btn rounded="true" id="book-now" to="/join"
+                <v-btn rounded="true" id="book-now" to="/login"
                     >Book Appointment</v-btn
                 >
             </div>

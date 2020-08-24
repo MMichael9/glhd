@@ -33,10 +33,22 @@ const routes = [
         path: '/join',
         name: 'Join',
         component: () => import('../views/Join.vue')
+    }, 
+    {
+        path: '/profile',
+        name: 'profile', 
+        component: () => import('../views/ProfileHome.vue')
+    }, 
+    {
+        path: '/profile/account',
+        name: 'myaccount', 
+        component: () => import('../views/ProfileMyAccount.vue')
     }
 ];
 
 const router = new VueRouter({
+    mode: "history",
+    base: process.env.BASE_URL,
     routes
 });
 
